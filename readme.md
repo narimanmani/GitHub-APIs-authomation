@@ -110,7 +110,7 @@ This view documents the classification model used to assign alerts into action-o
 
 The tiering logic helps avoid treating every secret scanning alert the same way. For example, a historical alert that no longer exists in the default branch should follow a different closure path than an active provider key found in source code.
 
-![Tier Assignment Model](/assets/01-tier-assignment-model.png)
+![Tier Assignment Model](./assets/01-tier-assignment-model.png)
 
 Key design points:
 
@@ -129,7 +129,7 @@ This dashboard view provides a high-level summary of the security alert posture 
 
 It gives leadership and engineering stakeholders a quick view of total alert volume, open and resolved alerts, active secrets, push protection bypasses, affected repositories, and Jira linkage coverage.
 
-![Dashboard Overview](assets/02-dashboard-overview-redacted.png)
+![Dashboard Overview](./assets/02-dashboard-overview-redacted.png)
 
 This view supports:
 
@@ -147,7 +147,7 @@ This trend view shows remediation progress over time.
 
 The stacked bar chart separates resolution categories, while the cumulative line shows overall closure progress.
 
-![Alerts Resolved Per Day](assets/03-resolution-trend-redacted.png)
+![Alerts Resolved Per Day](./assets/03-resolution-trend-redacted.png)
 
 This view is useful for:
 
@@ -165,7 +165,7 @@ This view groups findings into triage categories based on the recommended remedi
 
 It helps engineers and security stakeholders focus on the right next action instead of manually inspecting every alert from scratch.
 
-![Triage Analysis](assets/04-triage-analysis-redacted.png)
+![Triage Analysis](./assets/04-triage-analysis-redacted.png)
 
 The triage categories include:
 
@@ -186,7 +186,7 @@ This view correlates GitHub Secret Scanning alerts with Jira remediation tickets
 
 It helps determine which alerts already have active remediation work and which alerts still need ticket creation, ownership, or escalation.
 
-![Jira Ticket Tracking](assets/05-jira-tracking-redacted.png)
+![Jira Ticket Tracking](./assets/05-jira-tracking-redacted.png)
 
 This view supports:
 
