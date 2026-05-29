@@ -110,7 +110,7 @@ This view documents the classification model used to assign alerts into action-o
 
 The tiering logic helps avoid treating every secret scanning alert the same way. For example, a historical alert that no longer exists in the default branch should follow a different closure path than an active provider key found in source code.
 
-![Tier Assignment Model](assets/01-tier-assignment-model.png)
+![Tier Assignment Model](/assets/01-tier-assignment-model.png)
 
 Key design points:
 
